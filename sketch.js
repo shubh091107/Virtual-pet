@@ -79,6 +79,6 @@ function addFood(){
   foodS++
   database.ref("/").update({
       foodStock:foodS
-     feedTime:hour()
+     //feedTime:hour()
   })
 }
